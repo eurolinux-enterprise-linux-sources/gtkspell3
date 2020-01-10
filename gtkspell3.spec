@@ -1,6 +1,6 @@
 Name:           gtkspell3
 Version:        3.0.3
-Release:        2%{?dist}
+Release:        4%{?dist}
 Summary:        On-the-fly spell checking for GtkTextView widgets
 
 License:        GPLv2+
@@ -64,6 +64,12 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 %{_datadir}/vala/vapi/gtkspell3-3.0.deps
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.0.3-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.0.3-3
+- Mass rebuild 2013-12-27
+
 * Tue Jun 04 2013 Sandro Mani <manisandro@gmail.com> - 3.0.3-2
 - Add iso-codes requires and iso-codes-devel BR
 
